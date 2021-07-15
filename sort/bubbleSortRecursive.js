@@ -3,9 +3,7 @@ function bubbleSortRecursive(arr, index) {
 
         for(let j = 1; j < arr.length - index; j++) {
             if(arr[j-1] > arr[j]) {
-                const elem = arr[j-1]
-                arr[j-1] = arr[j]
-                arr[j] = elem
+                [arr[j-1], arr[j]] = [arr[j], arr[j - 1]]
                 swap = true
             }
         }
