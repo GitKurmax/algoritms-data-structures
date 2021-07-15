@@ -12,9 +12,7 @@ function selectionSort(arr) {
 }
 
 function swap(arr, firstElemPosition, secondElemPosition) {
-    const [first, second, ] = [arr[secondElemPosition], arr[firstElemPosition]]
-    arr[firstElemPosition] = first
-    arr[secondElemPosition] = second
+   [arr[firstElemPosition], arr[secondElemPosition]] = [arr[secondElemPosition], arr[firstElemPosition]]
 }
 
 console.log(selectionSort([234, 43, 323, 5002, 2, 99, 345, 0, 50, 302]))
