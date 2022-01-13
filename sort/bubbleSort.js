@@ -13,8 +13,7 @@ function bubbleSort(arr) {
             return arr
         }
     }
-
 }
 
-console.log(bubbleSort([234, 43, 323, 5002, 2, 99, 345, 0, 50, 302]))
+console.log(bubbleSort([234, 43, 323, 5002, 2, -3, 99, 345, 0, 50, 302]))
 
