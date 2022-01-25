@@ -1,3 +1,5 @@
+// Complexity for radix sort is O(nk), where n is the length of the array, k is the maximum number of digits.
+
 function rank(num, pos) {
     const numbers = num.toString().split('')
 
@@ -32,4 +34,5 @@ function radixSort(arr) {
     return arr
 }
 
-console.log(radixSort([234, 43, 323, 5002, 2, 99, 345, 0, 50, 302]))
+// console.log(radixSort([234, 43, 323, 5002, 2, 99, 345, 0, 50, 302]))
+console.log(radixSort([234, 43, 323, 5002, 2]))
