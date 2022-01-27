@@ -1,3 +1,5 @@
+// Complexity O(n2)
+
 function bubbleSort(arr) {
     for(let i = 0; i < arr.length - 1; i++) {
         let swap = false;
